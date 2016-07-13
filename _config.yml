@@ -1,0 +1,24 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Guía del Meditador
+email: web@meditacion.top
+description: > # this means to ignore newlines until "baseurl:"
+ Meditación, experiencias fuera del cuerpo, y realidad virtual desde
+ una perspectiva abierta pero esceptica y complétamente práctica.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://meditacion.top" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+
+
+#collections:
+#	- libro
+
+# Build settings
+markdown: kramdown

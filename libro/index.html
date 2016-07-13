@@ -1,0 +1,23 @@
+---
+title: "Guía del meditador"
+subtitle: "Un viaje más allá de los confines de tu mente"
+layout: default
+
+---
+
+<div class="home">
+
+  <h1 class="page-heading">{{page.title}}</h1>
+	<div class="book-header-subtitle">{{page.subtitle}}</div>
+  <ul class="post-list">
+    {% for post in site.pages %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+					<p class="page-subtitle">{{post.subtitle}} </p>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>
